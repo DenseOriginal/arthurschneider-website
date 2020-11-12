@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MainLayout } from './main/main.component';
 import { RouterModule } from '@angular/router';
+import { MatIconModule } from '@angular/material/icon';
+import { CustomIconsModule } from '../shared/custom-icons/custom-icons.module';
 
 
 
@@ -9,7 +11,9 @@ import { RouterModule } from '@angular/router';
   declarations: [MainLayout],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    MatIconModule,
+    CustomIconsModule
   ],
   exports: [
     MainLayout
