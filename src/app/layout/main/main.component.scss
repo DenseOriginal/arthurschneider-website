@@ -41,7 +41,8 @@ nav {
 	}
 	
 	.links {
-		margin-top: 60%;
+    margin-top: 65%;
+    width: 40%;
 		
 		ul {
 			text-decoration: none;
@@ -52,9 +53,10 @@ nav {
 				font-size: 16px;
 				font-weight: 400;
 				text-transform: uppercase;
-				cursor: pointer;
+        cursor: pointer;
+        transition: 500ms all;
 				
-				&.active {
+				&.active, &:hover {
 					color: #312d2f;
 				}
 
@@ -64,7 +66,7 @@ nav {
 			}
 
 			li:not(:first-child) {
-				margin-top: 12px;
+				margin-top: 14px;
 			}
 		}
 	}
