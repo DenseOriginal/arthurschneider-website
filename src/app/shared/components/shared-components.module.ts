@@ -11,4 +11,4 @@ import { TitleComponent } from './title/title.component';
   ],
   exports: [TitleComponent]
 })
-export class ComponentsModule { }
+export class SharedComponentsModule { }
