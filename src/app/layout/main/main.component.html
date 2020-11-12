@@ -1,27 +1,61 @@
 <div class="page">
-    <nav>
-        <div class="head">
-            <img class="logo" src="http://arthurschneider.com/images/Skrmbillede_2020-10-25_kl_161931.png" alt="Arthur Schneider">
-            <span class="title">Arthur Schneider</span>
-            <span class="subtitle">Videoproduktion</span>
-        </div>
+  <nav>
+    <div class="head">
+      <img
+        class="logo"
+        src="http://arthurschneider.com/images/Skrmbillede_2020-10-25_kl_161931.png"
+        alt="Arthur Schneider"
+      />
+      <span class="title">Arthur Schneider</span>
+      <span class="subtitle">Videoproduktion</span>
+    </div>
 
-        <div class="links">
-            <ul>
-                <li [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active" routerLink="">Home</li>
-                <li [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active" routerLink="about">About me</li>
-                <li [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active" routerLink="portfolio">Portfolio</li>
-                <li [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active" routerLink="music">Music</li>
-                <li [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active" routerLink="contact">Contact</li>
-            </ul>
-        </div>
+    <div class="links">
+      <ul>
+        <li
+          [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active"
+          routerLink=""
+        >
+          Home
+        </li>
+        <li
+          [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active"
+          routerLink="about"
+        >
+          About me
+        </li>
+        <li
+          [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active"
+          routerLink="portfolio"
+        >
+          Portfolio
+        </li>
+        <li
+          [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active"
+          routerLink="music"
+        >
+          Music
+        </li>
+        <li
+          [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active"
+          routerLink="contact"
+        >
+          Contact
+        </li>
+      </ul>
+    </div>
 
-        <div class="bottom">
-            <div class="social"></div>
-            <span class="copyright">ARTHUR SCHNEIDER &copy; 2020</span>
-        </div>
-    </nav>
-    <main>
-        <router-outlet></router-outlet>
-    </main>
+    <div class="bottom">
+      <div class="social"></div>
+      <span class="copyright">ARTHUR SCHNEIDER &copy; 2020</span>
+    </div>
+  </nav>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
 </div>
