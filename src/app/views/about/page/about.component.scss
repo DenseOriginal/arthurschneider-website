@@ -1,0 +1,47 @@
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.infotext {
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 97%;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 300;
+	color: #888888;
+  margin-bottom: 24px;
+	
+	a {
+		color: inherit;
+	}
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .me-pic {
+    width: 411px;
+    margin-bottom: 24px;
+  }
+}
+
+.references {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.why-me {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
