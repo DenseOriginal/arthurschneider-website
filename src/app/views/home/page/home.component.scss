@@ -1,0 +1,49 @@
+.video-hero {
+  video {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+
+.foreground {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  .hero-img {
+    width: 50%;
+    filter: invert(1);
+  }
+
+  .title {
+    font-size: 73px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .subtitle {
+    font-size: 29px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+}
