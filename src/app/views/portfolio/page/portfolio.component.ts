@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { Video, YoutubeChannelResult } from 'src/app/shared/intefaces/youtube.interface';
+import { YoutubeService } from '../services/youtube.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,7 +11,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class portfolioComponent implements OnInit {
 
-  constructor() { }
+  channelVids$: Observable<Video[]>;
+  vids$: Observable<Video[]>;
+
+  constructor(private youtubeService: YoutubeService) {
+    this.channelVids$ = youtubeService.getVideosForChannel(10).pipe(map(results => results.items));
+    // this.vids$ = this.channelVids$.pipe(map(results => results.items));
+  }
 
   ngOnInit(): void {
   }
