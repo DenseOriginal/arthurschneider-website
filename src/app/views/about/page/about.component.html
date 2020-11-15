@@ -53,4 +53,11 @@
       TIL DIN FAMILIETUR. DET DÆKKER ALT, FORDI MUSIKKEN ER PRODUCERET TIL DIG.
     </p>
   </div>
+
+  <div class="clients">
+    <app-title>Hvad siger kunderne</app-title>
+    <div class="customers">
+      <app-customer *ngFor="let customer of customers" [customer]="customer"></app-customer>
+    </div>
+  </div>
 </div>

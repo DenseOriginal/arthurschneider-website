@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 46px;
 }
 
 .infotext {
@@ -44,4 +45,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.clients {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .customers {
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    margin: auto;
+  }
 }

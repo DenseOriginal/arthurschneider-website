@@ -1,0 +1,13 @@
+<ng-container *ngIf="customer">
+  <div class="customer">
+    <img
+      class="picture"
+      [src]="customer.imgPath"
+      [alt]="customer.name + ', ' + customer.company"
+    />
+    <blockquote [ngClass]="{'quote': true, 'hasQuote': customer.quote}">
+      <p class="msg" *ngIf="customer.quote">{{ customer.quote }}</p>
+      <i class="name">{{ customer.name }}, {{ customer.company }}</i>
+    </blockquote>
+  </div>
+</ng-container>
