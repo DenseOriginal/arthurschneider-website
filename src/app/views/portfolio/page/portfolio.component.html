@@ -1,15 +1,9 @@
 <app-title>Portfolio</app-title>
 
 <div class="videos">
-    <app-yt-preview *ngFor="let vid of channelVids$ | async" [video]="vid"></app-yt-preview>
-</div>
-
-<div *ngFor="let vid of channelVids$ | async">
-  <img
-    [src]="vid.snippet.thumbnails.medium.url"
-    [alt]="vid.snippet.title"
-    [width]="vid.snippet.thumbnails.medium.width"
-    [height]="vid.snippet.thumbnails.medium.height"
-  />
-  <p>{{ vid.snippet.title }}</p>
+  <app-yt-preview
+    *ngFor="let vid of vids$ | async"
+    [video]="vid"
+    class="video"
+  ></app-yt-preview>
 </div>

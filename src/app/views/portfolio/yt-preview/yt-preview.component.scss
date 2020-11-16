@@ -1,0 +1,46 @@
+div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+  .vidContainer {
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+
+    img {
+      // width: 102%;
+      scale: 1.02;
+    }
+  }
+
+  .vidOverlay {
+    background-color: #ececec;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    cursor: pointer;
+
+    transition: 300ms all ease-in;
+    &:hover {
+      opacity: 0.95;
+    }
+
+    .yt-play {
+      width: 20%;
+      filter: invert(69%) sepia(65%) saturate(7202%) hue-rotate(333deg) brightness(99%) contrast(115%);
+    }
+  }
+
+  p {
+    color: #888888;
+    text-align: center;
+  }
+}
+

@@ -1,9 +1,16 @@
 <div>
+  <div class="vidContainer">
+    <div class="vidOverlay" (click)="triggerYTVideo()">
+      <img
+        class="yt-play"
+        src="/assets/youtube-logo.svg"
+        alt="View on youtube"
+      />
+    </div>
     <img
       [src]="video.snippet.thumbnails.medium.url"
       [alt]="video.snippet.title"
-      [width]="video.snippet.thumbnails.medium.width"
-      [height]="video.snippet.thumbnails.medium.height"
     />
-    <p>{{ video.snippet.title }}</p>
   </div>
+  <p>{{ video.snippet.title }}</p>
+</div>

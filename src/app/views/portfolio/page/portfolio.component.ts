@@ -11,12 +11,12 @@ import { YoutubeService } from '../services/youtube.service';
 })
 export class portfolioComponent implements OnInit {
 
-  channelVids$: Observable<Video[]>;
+  channelVids$: Observable<YoutubeChannelResult>;
   vids$: Observable<Video[]>;
 
   constructor(private youtubeService: YoutubeService) {
-    this.channelVids$ = youtubeService.getVideosForChannel(10).pipe(map(results => results.items));
-    // this.vids$ = this.channelVids$.pipe(map(results => results.items));
+    this.channelVids$ = youtubeService.getVideosForChannel(10);
+    this.vids$ = this.channelVids$.pipe(map(results => results.items));
   }
 
   ngOnInit(): void {
