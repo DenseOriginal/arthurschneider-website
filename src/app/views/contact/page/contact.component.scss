@@ -1,0 +1,83 @@
+.contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #888888;
+
+    .link {
+      color: inherit;
+    }
+
+    .section {
+      margin-bottom: 15px;
+
+      h2 {
+        color: #312d2f;
+        margin-bottom: 10px;
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+
+        mat-icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: inherit;
+        }
+
+        p {
+          display: inline;
+        }
+      }
+    }
+  }
+}
+
+.form {
+  width: 40%;
+  margin-left: 48px;
+
+  form {
+    input,
+    textarea {
+      display: block;
+      width: 100%;
+      border: 1px solid #ececec;
+      padding: 8.5px 20px;
+      margin-bottom: 15px;
+      transition: 200ms all;
+
+      &:focus {
+        border-color: #101010;
+      }
+    }
+
+    textarea {
+      overflow-wrap: break-word;
+      height: 96px;
+      resize: none;
+    }
+
+    .buttons button {
+      color: white;
+      background-color: #989898;
+      text-decoration: none;
+      padding: 8.5px 30px;
+      margin-right: 10px;
+      border: none;
+      transition: 500ms all;
+
+      &:hover {
+        background: #312d2f;
+      }
+    }
+  }
+}
