@@ -1,0 +1,14 @@
+[build]
+    base = "/"
+    publish = "dist/arthurschneider"
+    command = "ng build"
+
+[context.production]
+    base = "/"
+    publish = "dist/arthurschneider"
+    command = "ng build --prod"
+
+[[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200
