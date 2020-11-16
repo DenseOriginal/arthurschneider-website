@@ -1,0 +1,34 @@
+.music {
+  width: 66.6%;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 46px;
+
+  img {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .infotext {
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 97%;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #888888;
+    margin-bottom: 24px;
+
+    a {
+      color: inherit;
+    }
+  }
+
+  .music_preview {
+    padding-bottom: 24px;
+  }
+}
