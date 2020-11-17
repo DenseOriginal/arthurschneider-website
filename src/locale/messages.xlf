@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="56fd0c3529aaa7a7c5ceec4c6c20bd6c4bb25fcf" datatype="html">
+        <source>Videoproduktion</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/main/main.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49938d335eee6acfafff9abac1165eb1531a648e" datatype="html">
+        <source>
+          Hjem
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/main/main.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3641be086a754109b512f50368d9f0fef62f9c62" datatype="html">
+        <source>
+          Omkring mig
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/main/main.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4c341480685d51fa7f1503ab68bb203ce1190789" datatype="html">
+        <source>
+          Portefølje
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/main/main.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76a4373761da5ed346a5f8ed4f85bcc614bae92b" datatype="html">
+        <source>
+          Musik
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/main/main.component.html</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6acec816b3ff8dcde86aea877e0e53aacba3ca7f" datatype="html">
+        <source>
+          Kontakt
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/main/main.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="61e287e1ec8fb2bd10b96e5ec136522cf1dcfa0e" datatype="html">
+        <source>ARTHUR SCHNEIDER © 2020 | VIDEOPRODUKTION</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/main/main.component.html</context>
+          <context context-type="linenumber">179</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d052bc27fd31b2ca82c22cbe3cfc6a9ff056cd9" datatype="html">
+        <source>VIDEOPRODUKTION</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/home/page/home.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af792ea6aa52bab76b93491b825821b1bc82c036" datatype="html">
+        <source>Omkring mig</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/about/page/about.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="67dbf38bde1ad0b805692179e6c9f4ada83a91a3" datatype="html">
+        <source>
+      MIT NAVN ER ARTHUR HVELPLUND SCHNEIDER OG JEG ER EN VIDEO KREATØR. SELVOM
+      JEG HOLDER TIL I ÅRHUS OMRÅDET, HAR JEG KUNDER RUNDT OMKRING I EUROPA.
+      IGENNEM MINE 5 ÅR SOM VIDEO KREATØR, HAR JEG SKUDT REKLAMEFILM HOS STORE
+      OG SMÅ VIRKSOMHEDER. ALT FRA TOYOTA OG MASERATI TIL SMÅ LOKALE STARTUPS.
+      FORDI JEG ER VOKSET OP I DANMARK, SVERIGE OG SCHWEIZ, HAR JEG SAMLET EN
+      MASSE ERFARING I UDLANDET OG FORSKELLIGE KULTURER. DETTE GØR DET NEMMERE
+      AT ARBEJDE PÅ UDENLANDSKE PROJEKTER. JEG ER DEN RETTE MAND, HVIS DU ØNSKER
+      UNIKKE OG KVALITATIVT GENNEMFØRTE VIDEOER, DER FÅR DIG TIL AT STÅ UD AF
+      MÆNGDEN.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/about/page/about.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="90339748cb421fe5b8d04040afa266e48f5f4c9c" datatype="html">
+        <source>Hvorfor vælge mig?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/about/page/about.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bcd6f4b6c717e76bada1e77ae99978a089a8b270" datatype="html">
+        <source>
+      HOS ARTHUR SCHNEIDER VIDEOPRODUKTION FÅR DU HELT ENESTÅENDE OG
+      OPMÆRKSOMHEDSFANGENDE VIDEOER, DER ADSKILLER SIG UD FRA KONKURRENTERNE.
+      DET GIVER DIN VIRKSOMHED ET FORSPRING. HVORDAN DET? JEG ER EN UNG
+      IVÆRKSÆTTER. DET BETYDER AT MINE PRISER ER EN DEL BILLIGERE, END
+      FILMSSELSKABER DER PRODUCERER LIGNENDE KVALITETER.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/about/page/about.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1dd8cfdb42410b7c691b7152a0739f9cdad351c1" datatype="html">
+        <source>
+      ØNSKER DU AT HAVE DEN STØRSTE FRIHED OVERHOVEDET TIL HVAD, DU KAN BRUGE
+      DIN VIDEO TIL? UDEN AT SKULLE BEKYMRE SIG OM RETTIGHEDER AF MUSIK? SÅ KAN
+      DU VÆLGE AT VÆRE PÅ DEN HELT SIKRE SIDE OG BRUGE MUSIK FRA <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>LAHVIG MUSIC<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
+      JEG HAR ET SAMARBEJDE MED DEM, HVILKET GIVER EN LICENS TIL ALT.
+      LIGEGYLDIGT OM SOCIAL MEDIA, HJEMMESIDE, GOOGLE-ADS, TV, BIOGRAFEN ELLER
+      TIL DIN FAMILIETUR. DET DÆKKER ALT, FORDI MUSIKKEN ER PRODUCERET TIL DIG.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/about/page/about.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="39524f550bee9eb68bde7929419cccd5ff87ba95" datatype="html">
+        <source>Hvad siger kunderne</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/about/page/about.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4e56342e486b07792c3a4d99b3fb1a768f1b9dc0" datatype="html">
+        <source>
+    MUSIK ER EN VIGTIG DEL AF EN VIDEO. DERFOR HAR JEG VALGT AT BRUGE
+    HJEMMELAVET MUSIK. DETTE GIVER KUNDERNE EN KÆMPE FRIHED TIL HVAD DE VIL
+    BRUGE DERES REKLAMEFILM TIL, FORDI RETTIGHEDERNE DÆKKER ALT. SOM KUNDE
+    BEHØVER MAN IKKE BEKYMRE SIG OM RETTIGHEDERNE TIL SANGENE, DER FOREKOMMER I
+    DERES VIDEOER. DER ER MANGE VIRKSOMHEDER, DER VÆLGER IKKE AT FÅ STYR PÅ
+    RETTIGHEDERNE, NÅR DE BRUGER EN SANG. DET ER FORDI AT DET KOSTER PENGE, MEN
+    OGSÅ FORDI DET TAGER EN MASSE TID. MEN I SIDSTE ENDE GÅR DET UD OVER ALLE
+    PARTER.
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/music/page/music.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="694ed72b5840475ae417672ed73f0d558568a1a8" datatype="html">
+        <source>
+    MUSIKKEN ER PRODUCERET AF
+    <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>LAHVIG MUSIC<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/music/page/music.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5bff2d8a45ff23d437ff3beff685c5abcf08d18e" datatype="html">
+        <source>Kontakt</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/contact/page/contact.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9eefe49ac7afd167ed01f5bad6247ca34bfb4196" datatype="html">
+        <source>Telefon:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/contact/page/contact.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02c57adfd3f6e33ab3ca336768b3b76108500ae7" datatype="html">
+        <source>
+      Download information som<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+      <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>VKort<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/contact/page/contact.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c5ff8fa9c9aaec93f97e37c9a0edcd797194573" datatype="html">
+        <source>Send</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/contact/page/contact.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="06c663bf1474713f57551123a46b34318543b67d" datatype="html">
+        <source>Reset</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/contact/page/contact.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
