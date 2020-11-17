@@ -22,11 +22,12 @@
     </p>
   </div>
   <div class="form">
-    <form action="">
-      <input type="text" placeholder="Name" id="name">
-      <input type="email" placeholder="Email" id="email">
-      <input type="tel" placeholder="Phone" id="phone">
-      <textarea placeholder="Message" id="message" cols="30" rows="10"></textarea>
+    <form action="https://formsubmit.co/ak.kornerup@gmail.com" method="POST">
+      <input name="name" type="text" placeholder="Name" id="name" required>
+      <input name="email" type="email" placeholder="Email" id="email" required>
+      <input name="phone" type="tel" placeholder="Phone" id="phone" required>
+      <input type="hidden" name="_template" value="table">
+      <textarea name="message" placeholder="Message" id="message" cols="30" rows="10" required></textarea>
       <div class="buttons">
         <button type="submit">Send</button>
         <button type="reset">Clear</button>
