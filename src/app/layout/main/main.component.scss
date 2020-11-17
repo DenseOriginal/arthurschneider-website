@@ -1,12 +1,21 @@
-.page {
+.page,
+mat-drawer-container {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   position: absolute;
+  background-color: white;
 }
 
-nav {
+::ng-deep .nav .mat-drawer-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
   min-width: 270px;
   width: 270px;
   background-color: #ececec;
@@ -16,11 +25,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 32px 0px;
+  border: none;
 
   .head {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .logo {
       width: 100%;
@@ -38,37 +48,38 @@ nav {
       font-size: 10px;
       color: #969696;
     }
-	}
-	
-	.links {
+  }
+
+  .links {
     width: 40%;
-		
-		ul {
-			text-decoration: none;
-			list-style: none;
-			
-			li {
-				color: #888888;
-				font-size: 16px;
-				font-weight: 400;
-				text-transform: uppercase;
+
+    ul {
+      text-decoration: none;
+      list-style: none;
+
+      li {
+        color: #888888;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
         cursor: pointer;
         transition: 500ms all;
-				
-				&.active, &:hover {
-					color: #312d2f;
-				}
 
-				&:focus {
-					outline: none;
-				}
-			}
+        &.active,
+        &:hover {
+          color: #312d2f;
+        }
 
-			li:not(:first-child) {
-				margin-top: 14px;
-			}
-		}
-	}
+        &:focus {
+          outline: none;
+        }
+      }
+
+      li:not(:first-child) {
+        margin-top: 14px;
+      }
+    }
+  }
 
   .bottom {
     .social {
@@ -93,7 +104,13 @@ nav {
   }
 }
 
-main {
-  flex-grow: 1;
-  overflow-y: scroll;
+.toolbar {
+  width: 100%;
+  padding: 8px 16px;
+  background-color: #ECECEC;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }

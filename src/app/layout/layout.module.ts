@@ -4,6 +4,8 @@ import { MainLayout } from './main/main.component';
 import { RouterModule } from '@angular/router';
 import { MatIconModule } from '@angular/material/icon';
 import { CustomIconsModule } from '../shared/custom-icons/custom-icons.module';
+import { LayoutModule as MatLayoutModule } from "@angular/cdk/layout";
+import { MatSidenavModule } from "@angular/material/sidenav";
 
 
 
@@ -13,7 +15,9 @@ import { CustomIconsModule } from '../shared/custom-icons/custom-icons.module';
     CommonModule,
     RouterModule,
     MatIconModule,
-    CustomIconsModule
+    CustomIconsModule,
+    MatLayoutModule,
+    MatSidenavModule
   ],
   exports: [
     MainLayout

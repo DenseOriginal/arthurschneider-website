@@ -1,11 +1,7 @@
-<div class="page">
+<!-- <div class="page">
   <nav>
     <div class="head">
-      <img
-        class="logo"
-        src="/assets/logo.svg"
-        alt="Arthur Schneider"
-      />
+      <img class="logo" src="/assets/logo.svg" alt="Arthur Schneider" />
       <span class="title">Arthur Schneider</span>
       <span class="subtitle">Videoproduktion</span>
     </div>
@@ -52,20 +48,143 @@
 
     <div class="bottom">
       <div class="social">
-          <a href="https://www.facebook.com/4rthurschneider?locale=da_DK">
-              <mat-icon svgIcon="facebook-alt" class="icon" aria-hidden="false" aria-label="Facebook icon">facebook-alt</mat-icon>
-          </a>
-          <a href="#">
-              <mat-icon svgIcon="twitter" class="icon" aria-hidden="false" aria-label="Twitter icon">twitter</mat-icon>
-          </a>
-          <a href="#">
-              <mat-icon svgIcon="youtube" class="icon" aria-hidden="false" aria-label="Facebook icon">youtube</mat-icon>
-          </a>
+        <a href="https://www.facebook.com/4rthurschneider?locale=da_DK">
+          <mat-icon
+            svgIcon="facebook-alt"
+            class="icon"
+            aria-hidden="false"
+            aria-label="Facebook icon"
+            >facebook-alt</mat-icon
+          >
+        </a>
+        <a href="#">
+          <mat-icon
+            svgIcon="twitter"
+            class="icon"
+            aria-hidden="false"
+            aria-label="Twitter icon"
+            >twitter</mat-icon
+          >
+        </a>
+        <a href="#">
+          <mat-icon
+            svgIcon="youtube"
+            class="icon"
+            aria-hidden="false"
+            aria-label="Facebook icon"
+            >youtube</mat-icon
+          >
+        </a>
       </div>
-      <span class="copyright">ARTHUR SCHNEIDER &copy; 2020 | VIDEOPRODUKTION</span>
+      <span class="copyright"
+        >ARTHUR SCHNEIDER &copy; 2020 | VIDEOPRODUKTION</span
+      >
     </div>
   </nav>
   <main>
     <router-outlet></router-outlet>
   </main>
-</div>
+</div> -->
+
+<mat-drawer-container [hasBackdrop]="isHandset$ | async">
+  <mat-drawer
+    #drawer
+    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="!(isHandset$ | async)"
+    class="nav"
+  >
+    <div class="head">
+      <img class="logo" src="/assets/logo.svg" alt="Arthur Schneider" />
+      <span class="title">Arthur Schneider</span>
+      <span class="subtitle">Videoproduktion</span>
+    </div>
+
+    <div class="links">
+      <ul>
+        <li
+          [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active"
+          routerLink=""
+        >
+          Home
+        </li>
+        <li
+          [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active"
+          routerLink="about"
+        >
+          About me
+        </li>
+        <li
+          [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active"
+          routerLink="portfolio"
+        >
+          Portfolio
+        </li>
+        <li
+          [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active"
+          routerLink="music"
+        >
+          Music
+        </li>
+        <li
+          [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="active"
+          routerLink="contact"
+        >
+          Contact
+        </li>
+      </ul>
+    </div>
+
+    <div class="bottom">
+      <div class="social">
+        <a href="https://www.facebook.com/4rthurschneider?locale=da_DK">
+          <mat-icon
+            svgIcon="facebook-alt"
+            class="icon"
+            aria-hidden="false"
+            aria-label="Facebook icon"
+            >facebook-alt</mat-icon
+          >
+        </a>
+        <a href="#">
+          <mat-icon
+            svgIcon="twitter"
+            class="icon"
+            aria-hidden="false"
+            aria-label="Twitter icon"
+            >twitter</mat-icon
+          >
+        </a>
+        <a href="#">
+          <mat-icon
+            svgIcon="youtube"
+            class="icon"
+            aria-hidden="false"
+            aria-label="Facebook icon"
+            >youtube</mat-icon
+          >
+        </a>
+      </div>
+      <span class="copyright"
+        >ARTHUR SCHNEIDER &copy; 2020 | VIDEOPRODUKTION</span
+      >
+    </div>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div class="toolbar" *ngIf="(isHandset$ | async)">
+      <mat-icon
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        >menu</mat-icon
+      >
+    </div>
+
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
