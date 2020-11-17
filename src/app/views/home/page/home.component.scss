@@ -1,3 +1,5 @@
+@import "../../../../styles/variables.scss";
+
 .video-hero {
   video {
     position: absolute;
@@ -32,6 +34,14 @@
   .hero-img {
     width: 50%;
     filter: invert(1);
+
+    @include respond-to(ml) {
+      width: 75%;
+    }
+
+    @include respond-to(xxx-small) {
+      width: 82%;
+    }
   }
 
   .title {
@@ -39,6 +49,11 @@
     font-weight: 400;
     text-transform: uppercase;
     line-height: initial;
+    text-align: center;
+
+    @include respond-to(small) {
+      font-size: 65px;
+    }
   }
 
   .subtitle {

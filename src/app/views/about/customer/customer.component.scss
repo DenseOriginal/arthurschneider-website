@@ -1,3 +1,5 @@
+@import "../../../../styles/variables.scss";
+
 :host {
   width: 50%;
 }
@@ -5,6 +7,13 @@
 .customer {
   width: 100%;
   padding: 0 15px;
+
+  @include respond-to(small) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .picture {

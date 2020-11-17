@@ -10,7 +10,7 @@ import { pluck, shareReplay, tap } from 'rxjs/operators';
   // encapsulation: ViewEncapsulation.None
 })
 export class MainLayout implements OnInit {
-  isHandset$: Observable<boolean> = this.breakpointObserver.observe(['(max-width: 600px)'])
+  isHandset$: Observable<boolean> = this.breakpointObserver.observe(['(max-width: 750px)'])
     .pipe(pluck('matches'), shareReplay());
 
   constructor(private breakpointObserver: BreakpointObserver) { }

@@ -1,7 +1,11 @@
 $breakpoints: (
+  'xxx-small': 400px,
+  'xx-small': 500px,
   'x-small': 600px,
   'small': 767px,
+  'sm': 800px,
   'medium': 992px,
+  'ml': 1050px,
   'large': 1200px,
 ) !default;
 
