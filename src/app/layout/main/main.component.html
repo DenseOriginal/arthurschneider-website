@@ -92,6 +92,7 @@
     [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'"
     [opened]="!(isHandset$ | async)"
+    [position]="(isHandset$ | async) ? 'end' : 'start'"
     class="nav"
   >
     <div class="head">
