@@ -1,12 +1,27 @@
 [build]
     base = "/"
     publish = "dist/arthurschneider"
-    command = "ng build"
+    command = "ng build --localize"
 
 [context.production]
     base = "/"
     publish = "dist/arthurschneider"
-    command = "ng build --prod"
+    command = "ng build --prod --localize"
+
+[[redirects]]
+    from = "/en/*"
+    to = "/en/index.html"
+    status = 200
+
+[[redirects]]
+    from = "/de/*"
+    to = "/de/index.html"
+    status = 200
+
+[[redirects]]
+    from = "/dk/*"
+    to = "/index.html"
+    status = 302
 
 [[redirects]]
     from = "/*"

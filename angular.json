@@ -11,7 +11,7 @@
         }
       },
       "i18n": {
-        "sourceLocale": "dk-DK",
+        "sourceLocale": "dk",
         "locales": {
           "en": "src/locale/messages.en.xlf",
           "de": "src/locale/messages.de.xlf"
