@@ -83,6 +83,9 @@ mat-drawer-container {
 
   .bottom {
     .social {
+      display: flex;
+      align-items: center;
+
       .icon {
         color: #888888;
         width: 14px;
@@ -93,6 +96,10 @@ mat-drawer-container {
         &:hover {
           color: #312d2f;
         }
+      }
+
+      .translate {
+        margin-left: auto;
       }
     }
 
@@ -117,4 +124,15 @@ mat-drawer-container {
 
 .main {
   width: 100%;
+}
+
+.languageOption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .flag {
+    width: 18px;
+    height: auto;
+    margin-left: 8px;
+  }
 }

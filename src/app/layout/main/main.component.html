@@ -175,6 +175,40 @@
             >youtube</mat-icon
           >
         </a>
+
+        <button
+          mat-icon-button
+          class="translate"
+          [mat-menu-trigger-for]="languageMenu"
+        >
+          <mat-icon class="icon" aria-hidden="false" aria-label="translate icon"
+            >translate</mat-icon
+          >
+        </button>
+
+        <mat-menu #languageMenu="matMenu">
+          <a class="languageOption" mat-menu-item href="/dk"
+            >Danish (Dansk)
+            <img
+              class="flag"
+              src="https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-denmark2x.png"
+              alt="Denmark"
+          /></a>
+          <a class="languageOption" mat-menu-item href="/de"
+            >German (Germany)
+            <img
+              class="flag"
+              src="https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-germany2x.png"
+              alt="Germany"
+          /></a>
+          <a class="languageOption" mat-menu-item href="/en"
+            >English (UK)
+            <img
+              class="flag"
+              src="https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-united-kingdom2x.png"
+              alt="UK"
+          /></a>
+        </mat-menu>
       </div>
       <span class="copyright" i18n
         >ARTHUR SCHNEIDER &copy; 2020 | VIDEOPRODUKTION</span
@@ -182,7 +216,7 @@
     </div>
   </mat-drawer>
   <mat-drawer-content class="main">
-    <div class="toolbar" *ngIf="(isHandset$ | async)">
+    <div class="toolbar" *ngIf="isHandset$ | async">
       <p>Arthur Schneider</p>
       <mat-icon
         aria-label="Toggle sidenav"

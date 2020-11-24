@@ -6,6 +6,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { CustomIconsModule } from '../shared/custom-icons/custom-icons.module';
 import { LayoutModule as MatLayoutModule } from "@angular/cdk/layout";
 import { MatSidenavModule } from "@angular/material/sidenav";
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from "@angular/material/button";
 
 
 
@@ -17,7 +19,9 @@ import { MatSidenavModule } from "@angular/material/sidenav";
     MatIconModule,
     CustomIconsModule,
     MatLayoutModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatMenuModule,
+    MatButtonModule
   ],
   exports: [
     MainLayout
