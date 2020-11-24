@@ -20,10 +20,15 @@
 
 [[redirects]]
     from = "/dk/*"
-    to = "/index.html"
+    to = "/dk/index.html"
     status = 302
 
 [[redirects]]
     from = "/*"
-    to = "/index.html"
+    to = "/dk/index.html"
+    status = 200
+
+[[redirects]]
+    from = "/assets/*"
+    to = "/dk/assets/:splat"
     status = 200
