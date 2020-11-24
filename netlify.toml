@@ -26,7 +26,7 @@
 [[redirects]]
     from = "/dk/*"
     to = "/dk/index.html"
-    status = 302
+    status = 200
 
 [[redirects]]
     from = "/*"
