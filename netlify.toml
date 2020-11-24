@@ -9,6 +9,11 @@
     command = "ng build --prod --localize"
 
 [[redirects]]
+    from = "/assets/*"
+    to = "/dk/assets/:splat"
+    status = 200
+
+[[redirects]]
     from = "/en/*"
     to = "/en/index.html"
     status = 200
@@ -26,9 +31,4 @@
 [[redirects]]
     from = "/*"
     to = "/dk/index.html"
-    status = 200
-
-[[redirects]]
-    from = "/assets/*"
-    to = "/dk/assets/:splat"
     status = 200
