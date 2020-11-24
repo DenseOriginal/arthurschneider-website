@@ -12,6 +12,7 @@ const routes: Routes = [
       { path: 'portfolio', loadChildren: () => import('./views/portfolio/portfolio.module').then(m => m.portfolioModule) },
       { path: 'music', loadChildren: () => import('./views/music/music.module').then(m => m.MusicModule) },
       { path: 'contact', loadChildren: () => import('./views/contact/contact.module').then(m => m.ContactModule) },
+      { path: '**', redirectTo: '/' }
     ]
   },
 ];
